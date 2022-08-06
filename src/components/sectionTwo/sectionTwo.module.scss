@@ -1,0 +1,19 @@
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+  .items {
+    flex: 0 1 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .item {
+      display: flex;
+      gap: 5px;
+      align-items: center;
+      justify-content: center;
+      max-width: 250px;
+    }
+  }
+}
